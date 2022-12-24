@@ -1,1 +1,3 @@
-crypto2023.shop
+type = CNAME
+name = www
+value = rct2021.github.io.
