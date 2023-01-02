@@ -1,0 +1,111 @@
+html,body {
+    margin: 0;
+    padding: 0;
+}
+
+
+h2 {
+  margin-top: 0 !important;
+  color:fff;
+}
+
+#crypto-table {
+    margin-top: 10%;
+    color:#fff;
+}
+
+ul {
+    margin-top: 50px;
+}
+
+.active {
+    background-color: #000 !important;
+}
+
+.bold {
+    font-weight: 600;
+}
+
+
+	body{
+	 background-color: #000000;
+   padding: 0px;
+   margin: 0px;
+ }
+
+#gradient
+{
+  width: 100%;
+  height: 800px;
+  padding: 0px;
+  margin: 0px;
+}
+
+
+
+@import "compass"
+
+$body-color: #fff
+$font-color: white
+@mixin demo-border($color,$width)
+  border:
+    color: $color
+    width: $width
+    style: solid
+    
+   
+@function randomColorfunction()
+  @if boolean
+    @return hsla(random(365), 90, 50, 1)
+  @else
+    @return black
+    
+.effect
+  display:block
+  background-color: $body-color
+  margin-left: auto
+  margin-right: auto
+  
+
+.h7
+  display: block
+  margin-left: auto
+  margin-right: auto
+  width: 6em
+  opacity: 0.4
+  margin-top: 50px
+  text-align:center
+  
+ 
+  animation-name: color-change
+  animation-duration: 4s
+  animation-iteration-count: infinite
+  animation-timing-function: ease-in-out
+
+body
+  background-color: $body-color
+
+h7:hover 
+  opacity: 1
+
+
+
+@keyframes color-change
+  0%
+    color: randomColorfunction()
+    @include demo-border(randomColorfunction(), 5px)
+  25%
+    color: randomColorfunction()
+    @include demo-border(randomColorfunction(), 5px)
+    
+  50% 
+    color: randomColorfunction()
+    @include demo-border(randomColorfunction(), 5px)
+    
+  75% 
+    color: randomColorfunction()
+    @include demo-border(randomColorfunction(), 5px)
+    
+  100%
+    color: randomColorfunction()
+    @include demo-border(randomColorfunction(),5px)

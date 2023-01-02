@@ -1,0 +1,46 @@
+body {
+background: linear-gradient(0.3deg, rgb(30, 161, 239) 0.9%, rgb(49, 46, 252) 88.6%);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+}
+
+
+
+table {
+color:#faf1;
+background-color: #faf1;
+	height: 22;
+
+
+
+text-shadow: 3px 3px 2px rgba(22, 71, 187, 1);
+}
+
+
+.h2 {
+
+	color:#fff; 
+
+}
+
+
+h2 {
+
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+
+
+
